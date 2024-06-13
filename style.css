@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    padding: 20px 3%;
+    background: rgba(0, 0, 0, 0.447);
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.cabeçalho-link a{
+    color: #fff;
+    font-size: 17px;
+}
+
+.cabeçalho-link a:hover{
+    color: #2ecc71;
+    transition: 0.3s all;
+}
+
+.logo i{
+    height: 70px;
+    width: 70px;
+    background: transparent;
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+button{
+    color: #2ecc71;
+    background: transparent;
+    border:solid 1px #2ecc71;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 17px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button:hover{
+    background-color: #2ecc71;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.container-text{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.text h3{
+    color: #fff;
+    font-size: 15px;
+}
+
+.text h1{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.text span{
+    color: #2ecc71; 
+}
+
+.text p{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.redes-social{
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.redes-social a{
+    justify-content: center;
+    color: #2ecc71;
+    padding: 10px;
+    margin-top: 5px;
+    padding-left: 100;
+    align-items: center;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+@media screen and (max-width:600px){
+    .cabeçalho-link {
+        display: none;
+    }
+    
+}
+
+body {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(-45deg, #828282, #4f19ff, #000000);
+	background-size: 400% 400%;
+	height: 100vh;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    font-size: x-large;
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+p {
+    font-size: larger;
+}
+
+img {
+    width: 200px;
+    height: 320px;
+    border-radius: 1%;
+    border: 2px solid rgb(71, 255, 54);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.155);
+}
+.center {
+    text-align: center;
+}
+h1 {
+    color: #2ecc71;
+    text-align: center;
+}
+h2 {
+    color: antiquewhite;
+    text-align: center;
+    justify-content: center;
+}
+h3 {
+    color: rgb(3, 138, 255);
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+}
+nav a:hover {
+    color: rgb(0, 204, 255);
+}
+img {
+    width: 230px;
+    height: 320px;
+    border-radius: 1%;
+    border: 2px solid #2ecc71;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.055);
+}
+
+
+.dots-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .dot {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #b3d4fc;
+    animation: pulse 1.5s infinite ease-in-out;
+  }
+  
+  .dot:last-child {
+    margin-right: 0;
+  }
+  
+  .dot:nth-child(1) {
+    animation-delay: -0.3s;
+  }
+  
+  .dot:nth-child(2) {
+    animation-delay: -0.1s;
+  }
+  
+  .dot:nth-child(3) {
+    animation-delay: 0.1s;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(0.8);
+      background-color: #caffca;
+      box-shadow: 0 0 0 0 rgba(178, 252, 178, 0.7);
+    }
+  
+    50% {
+      transform: scale(1.2);
+      background-color: #2ecc71;
+      box-shadow: 0 0 0 10px rgba(178, 212, 252, 0);
+    }
+  
+    100% {
+      transform: scale(0.8);
+      background-color: #2ecc70c3;
+      box-shadow: 0 0 0 0 rgba(178, 252, 200, 0.7);
+    }
+  }
+
+  
