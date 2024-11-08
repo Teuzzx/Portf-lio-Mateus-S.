@@ -236,4 +236,20 @@ img {
     }
   }
 
+
+
+
+
+
+
+.link a{
+    color: #2ecc71;
+    text-align: center;
+    align-items: center;
+}
+
+.link {
+    align-items: center;
+    text-align: center;
+}
   
